@@ -1,22 +1,23 @@
 ## MusicBee Fly ##
 
-[中文](README-CN.md) | [英文](README.md)
+中文 | [英文](README.md)
 
-MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。在开始使用MusicBee Fly之前请先确保你已下载安装MusicBee，MusicBee是一款功能强大的音乐播放和管理软件，MusicBee可从[MusicBee官网](http://323)下载。 
+MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。在开始使用MusicBee Fly之前请先确保你已下载安装MusicBee，
+MusicBee是一款功能强大的音乐播放和管理软件，[MusicBee官网](http://www.getmusicbee.com/) 
 
-MusicBee Fly的插件（后端）部分采用C#编写，前端部分采用ionic4 + AngularJs + Cordova编写，前后端数据交换采用Websocket，前端同时支持Browser/WebApp/Native App。
+MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic4 + AngularJs + Cordova编写，plugin和App数据交换采用Websocket协议，并且App同时支持Browser(Web)、WebApp和Native App三种方式。UI统一采用ionic4的iOS样式，在Safari/Chrome/iOS App/Android App上面呈现的效果完全一致。
 
 - [安装方法](#安装方法)
 - [使用方法](#使用方法)
 - [已知的BUG](#已知的BUG)
-- [屏幕截图](#屏幕截图)
 - [鸣谢](#鸣谢)
 
 ## 安装方法 ##
 
-### 插件安装 ###
+### MuiscBee Fly plugin ###
 
-从[release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly。dll文件和mb_fly。www目录拷贝到MusicBee plugin目录下面。 拷贝之前请关闭MusicBee程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。
+从[release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly.dll文件和mb_fly.www目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。
+![plugin-1](docs/plugin-1.png)
 
 ### 安装手机App ###
 
@@ -24,11 +25,11 @@ MusicBee Fly的插件（后端）部分采用C#编写，前端部分采用ionic4
 
 #### Iphone App ####
 
-虽然MusicBee Fly前端部分很容易可以编译为ios app(ipa)，但是由于我没有Apple开发者帐号，所以无法把App发布到Apple App Store，所以暂时无法提供ios app。
+虽然MusicBee Fly前端部分很容易可以编译为iOS app(ipa)，但是由于我没有Apple开发者帐号，所以无法把App发布到Apple App Store，所以暂时无法提供iOS app。
 
 #### Iphone PWA(WebApp) ####
 
-ios从11.3开始支持PWA(Progress Web Application)，所以你可以使用PWA的方式让MusicBee Fly变成一个WebApp， 看起来和一个Native app非常相似，虽然用户体验无法和Native App相比。步骤如下：
+iOS从11.3开始支持PWA(Progress Web Application)，所以你可以使用PWA的方式让MusicBee Fly变成一个WebApp， 看起来和一个Native app非常相似，虽然用户体验无法和Native App相比。步骤如下：
 1) 在你iphon的Safari浏览器里面打开下面这2个url中的任意一个:
 http://musicbee-fly.tracemouse.top  (建议,原因参考[已知的BUG](#已知的BUG))
 http://ip:port/  (这个是你自己的MusicBee 里面MusicBee Fly插件提供的，在MusicBee Fly设置窗口可以看见这个url)
@@ -113,15 +114,10 @@ BUG一定会有的，但是基本都不太影响使用，作者只有一台iphon
 
 遇到问题怎么办，关掉App（要从后台关闭App，否则只是让App进入后台而已），然后重新打开APP就行了。
 
-PWA(WebApp) 安装模式并没有采用service worker + cache storage，所以依赖的浏览器自动缓存，从目前测试结果来看，Google PWA的效果不错，ios PWA的离线效果不太好，服务器端离线之后再连线时有时无法从服务器获取版本，所以对于iphone PWA用户，如果遇到PWA的使用问题，可能通过以下方法解决：
+PWA(WebApp) 安装模式并没有采用service worker + cache storage，所以依赖的浏览器自动缓存，从目前测试结果来看，Google PWA的效果不错，iOS PWA的离线效果不太好，服务器端离线之后再连线时有时无法从服务器获取版本，所以对于iphone PWA用户，如果遇到PWA的使用问题，可能通过以下方法解决：
 
 - 在主屏幕上删除MusicBee Fly，然后在iphone 设置 -> Safari 下面清掉Safari 缓存，然后重新添加PWA
 - 建议通过我提供的 http://musicbee-fly.tracemouse.top 来添加PWA，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加PWA，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
-
-
-## 屏幕截图 ##
-
-MusicBee Fly统一采用ionic的ios样式，在browser/iphone app/android app上面展现的效果完全一致，下面截图供参考：
 
 
 ## 鸣谢 ##
