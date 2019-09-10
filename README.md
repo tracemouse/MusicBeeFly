@@ -31,16 +31,21 @@ App的安装方法有两种: WebApp 和 Native App，推荐安装Native App，�
 
 iOS从11.3开始支持PWA(Progress Web Application)，所以你可以通过添加PWA的方式让MusicBee Fly变成一个WebApp。  
 步骤如下：
-1) 在你iphon的Safari浏览器里面打开下面这2个url中的任意一个:
+1) 在你iPhone的Safari浏览器里面打开下面这2个url中的任意一个:
 
 URL  | 说明
  ---- | -----  
-http://musicbee-fly.tracemouse.top  |  (建议,原因参考[已知的BUG](#已知的BUG))  
-http://ip:port/  |  (这个是你自己的MusicBee Fly plugin提供的，在MusicBee Fly plugin设置窗口可以看见这个url)
+http://musicbee-fly.tracemouse.top  |  建议,原因参考[已知的BUG](#已知的BUG)
+http://ip:port/  |  这个是你自己的MusicBee Fly plugin提供的，在MusicBee Fly plugin设置窗口可以看见这个url
 
 2) 点击Safari下面的分享按钮，然后点击“添加到主屏幕”
 
 3) 上面第二步完成之后在主屏幕上就可以看见MusicBee Fly图标，点击打开它，没错，看起来和一个普通的iPhone App一模一样，enjoy it
+
+![iphone-1](https://tracemouse.github.io/MusicBeeFly/docs/iphone-1.png)
+![iphone-2](https://tracemouse.github.io/MusicBeeFly/docs/iphone-2.png)
+![iphone-3](https://tracemouse.github.io/MusicBeeFly/docs/iphone-3.png)
+![iphone-4](https://tracemouse.github.io/MusicBeeFly/docs/iphone-4.png)
 
 #### Android App ####
 
@@ -85,7 +90,8 @@ b) 在路由器上的DHCP设置里把你的网卡MAC address设为静态分配�
 
 - 播放  
 播放页面显示的是正在播放的歌曲列表，歌曲列表右侧的红色播放按钮可点击播放这首歌曲，黄色喇叭图标表示当前正在播放这首歌曲。上部的播放、前进、后退按钮可点击控制歌曲的播放，黄色的歌曲播放进度条不可拖动和点击。右上角红色按钮在歌曲播放时会自动开始动画，播放停止时自动停止动画，可点击它进入当前播放歌曲的页面。  
-如果本页面的数据没有实时刷新，也没有弹出任何错误提示，那么有可能是Websocket的连接断开了，可以直接在本页面下拉刷新重新连接websocket，或者通过设置页面退出然后重新登录
+如果本页面的数据没有实时刷新，也没有弹出任何错误提示，那么有可能是Websocket的连接断开了，可以直接在本页面下拉刷新重新连接websocket，或者通过设置页面退出然后重新登录  
+![tab1](https://tracemouse.github.io/MusicBeeFly/docs/tab1.png)
 
 - 正在播放的歌曲  
 播放进度条可以点击控制播放进度，不可以拖动控制  
