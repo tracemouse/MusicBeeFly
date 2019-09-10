@@ -17,7 +17,7 @@ MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic
 ### MuiscBee Fly plugin ###
 
 从[release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly.dll文件和mb_fly.www目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。
-![plugin-1](docs/plugin-1.png)
+![plugin-1](https://tracemouse.github.io/MusicBeeFly/docs/plugin-1.PNG)
 
 ### 安装手机App ###
 
