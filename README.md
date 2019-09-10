@@ -7,16 +7,22 @@ MusicBee是一款功能强大的音乐播放和管理软件，[**MusicBee官网*
 
 MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic4 + AngularJs + Cordova编写，plugin和App数据交换采用Websocket协议，并且App同时支持Browser(Web)、WebApp和Native App三种方式。UI统一采用ionic4的iOS样式，在Safari/Chrome/iOS App/Android App上面呈现的效果完全一致。
 
-- [安装方法](#安装方法)
-- [使用方法](#使用方法)  - [MusicBee Fly plugin](#MuiscBee-Fly-plugin)
+- [安装方法](#安装方法)  
+  [MusicBee Fly plugin](#MuiscBee-Fly-plugin)  |  [MusicBee Fly App](#MuiscBee-Fly-App) 
+
+- [使用方法](#使用方法)   
+  [MusicBee Fly plugin](#MuiscBee-Fly-plugin)  |  [MusicBee Fly App](#MuiscBee-Fly-App) 
+
 - [已知的BUG](#已知的BUG)
+
 - [鸣谢](#鸣谢)
 
 ## 安装方法 ##
 
 ### MuiscBee Fly plugin ###
 
-从[release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly.dll文件和mb_fly.www目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。  
+从 [release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly.dll文件和mb_fly.www目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。  
+
 ![plugin-1](https://tracemouse.github.io/MusicBeeFly/docs/plugin-1.png)
 
 ### MusicBee Fly App ###
