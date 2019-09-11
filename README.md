@@ -2,16 +2,18 @@
 
 中文 | [英文](README.md)
 
-MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。在开始使用MusicBee Fly之前请先确保你已下载安装MusicBee，
-MusicBee是一款功能强大的音乐播放和管理软件，[**MusicBee官网**](http://www.getmusicbee.com/) 
+MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。
+
+在开始使用MusicBee Fly之前请先确保你已下载安装MusicBee，MusicBee是一款完全免费的、功能强大的音乐播放和管理软件。  
+[**MusicBee官网**](http://www.getmusicbee.com/) 
 
 MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic4 + AngularJs + Cordova编写，plugin和App数据交换采用Websocket协议，并且App同时支持Browser(Web)、WebApp和Native App三种方式。UI统一采用ionic4的iOS样式，在Safari/Chrome/iOS App/Android App上面呈现的效果完全一致。
 
 - [安装方法](#安装方法)  
-  [MusicBee Fly plugin](#MuiscBee-Fly-plugin)  |  [MusicBee Fly App](#MuiscBee-Fly-App) 
+  [MusicBee Fly plugin 安装方法](#MuiscBee-Fly-plugin-安装方法)  |  [MusicBee Fly App 安装方法](#MuiscBee-Fly-App-安装方法) 
 
 - [使用方法](#使用方法)   
-  [MusicBee Fly plugin](#MuiscBee-Fly-plugin)  |  [MusicBee Fly App](#MuiscBee-Fly-App) 
+  [MusicBee Fly plugin 使用方法](#MuiscBee-Fly-plugin-使用方法)  |  [MusicBee Fly App 使用方法](#MuiscBee-Fly-App-使用方法) 
 
 - [已知的BUG](#已知的BUG)
 
@@ -19,13 +21,13 @@ MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic
 
 ## 安装方法 ##
 
-### MuiscBee Fly plugin ###
+### MuiscBee Fly plugin 安装方法 ###
 
 从 [release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly.dll文件和mb_fly.www目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。  
 
 ![plugin-1](https://tracemouse.github.io/MusicBeeFly/docs/plugin-1.png)
 
-### MusicBee Fly App ###
+### MusicBee Fly App 安装方法 ###
 
 App的安装方法有两种: WebApp 和 Native App，推荐安装Native App，获得更好的用户体验。
 
@@ -66,7 +68,7 @@ http://ip:port/  |  这个是你自己的MusicBee Fly plugin提供的，在Music
 
 ## 使用方法 ##
 
-### MuiscBee Fly plugin ###
+### MuiscBee Fly plugin 使用方法 ###
 
 插件的设置窗口可通过MusicBee 的"首选项" -> "插件" -> "MusicBee Fly 设置" 打开，在插件设置窗口可设置端口和密码。端口默认为9999，建议设置范围是9000 - 9999，必须错开系统上已被其他程序占用的端口，如无特殊需要建议设置为9999。密码默认为空，也就是无须密码可以任意连接，如果担心不安全，请设置密码。  
 
@@ -89,7 +91,7 @@ b) 在路由器上的DHCP设置里把你的网卡MAC address设为静态分配�
 - 你的电脑处于家庭局域网内部：  
 这个是最安全的应用场景，如果确认你的家庭局域网的内部用户都是可信任的（例如家人），可以不用设置密码，方便前端可以无须输入密码直接连接。另外，完全不建议你在路由器上设置端口转发把你的MusicBee Fly plugin端口暴露到Internet上，理由同上面第一个应用场景。
 
-### MuiscBee Fly App ###
+### MuiscBee Fly App 使用方法 ###
 
 - 登录  
 登录页面需要填写IP地址、端口、密码，如果插件部分没有设置连接密码则密码无须填写，IP地址和端口必填，可用插件的设置窗口看见IP地址和端口。当然，你必须保证你的手机和电脑的网络是连通的，例如在同一个局域网下面。  

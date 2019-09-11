@@ -84,7 +84,7 @@
     "login": {
         "header": "MusicBee",
         "button-text": "Login",
-        "password-placeholder":"Let it blank if password not set"
+        "password-placeholder":""
     },
     "message": {
         "alert": "Alert",

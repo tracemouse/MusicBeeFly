@@ -9,7 +9,7 @@
         "ip": "IP地址",
         "port": "端口",
         "password": "密碼",
-        "password-placeholder":"如果插件未设置密码无须填写"
+        "password-placeholder":""
     },
     "tabs": {
         "tab1": "播放",

@@ -83,7 +83,7 @@
     "login": {
         "header": "MusicBee",
         "button-text": "登录",
-        "password-placeholder":"如果未设置密码请留空"
+        "password-placeholder":""
     },
     "message": {
         "alert": "警告",
