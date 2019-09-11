@@ -172,7 +172,8 @@ PWA(WebApp) 安装模式并没有采用service worker + cache storage，所以�
 ## 联系作者 ##
 
 可以给我发电子邮件，但是我不一定会一一回复。  
-`tracemouse@163.com`<tracemouse@163.com>
+
+<tracemouse@163.com>
 
 ## 捐助 ##
 
