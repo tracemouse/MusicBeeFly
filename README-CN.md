@@ -21,6 +21,10 @@ MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic
 
 - [鸣谢](#鸣谢)
 
+- [联系作者](#联系作者)
+
+- [捐助](#捐助)
+
 ## 安装方法 ##
 
 ### MuiscBee Fly plugin 安装方法 ###
@@ -163,3 +167,19 @@ PWA(WebApp) 安装模式并没有采用service worker + cache storage，所以�
 - [MusicBee](http://www.getmusicbee.com/) 
 - [websock-sharp](https://github.com/sta/websocket-sharp)
 - [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
+
+
+## 联系作者 ##
+
+可以给我发电子邮件，但是我不一定会一一回复。  
+`tracemouse@163.com`<tracemouse@163.com>
+
+## 捐助 ##
+
+如果你认可作者的劳动，你可以选择下面任意一种方式捐助。
+
+**Paypal:**  [`paypal.me/Yangjun78`](https://paypal.me/Yangjun78)
+
+** 支付宝 / 微信 : **
+
+![alipay-wechat](https://tracemouse.github.io/MusicBeeFly/docs/alipay-wechat.png)
