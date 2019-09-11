@@ -25,7 +25,7 @@ MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic
 
 ### MuiscBee Fly plugin 安装方法 ###
 
-从 [release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的mb_fly.dll文件和mb_fly.www目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。  
+从 [release](https://github.com/tracemouse/MusicBeeFly/releases) 页面下载最新版本的MusicBeeFly plugin 压缩文件，把解压之后得到的`mb_fly.dll`文件和`mb_fly.www`目录拷贝到MusicBee Plugins目录下面。 拷贝之前请关闭MusicBee主程序，拷贝完成后重新打开MusicBee程序，插件会自动生效。  
 
 ![plugin-1](https://tracemouse.github.io/MusicBeeFly/docs/plugin-1.png)
 
@@ -39,7 +39,7 @@ App的安装方法有两种: WebApp 和 Native App，推荐安装Native App，�
 
 #### iPhone WebApp ####
 
-iOS从11.3开始支持PWA(Progress Web Application)，所以你可以通过添加PWA的方式让MusicBee Fly变成一个WebApp。  
+iOS从`11.3`开始支持PWA(Progress Web Application)，所以你可以通过添加PWA的方式让MusicBee Fly变成一个WebApp。  
 步骤如下：
 1) 在你iPhone的Safari浏览器里面打开下面这2个url中的任意一个:
 
@@ -87,7 +87,7 @@ b) 在路由器上的DHCP设置里把你的网卡MAC address设为静态分配�
 请参考以下应用场景设置：
 
 - 你的电脑拥有Internet(俗称外网)IP：  
-因为MusicBee Fly plugin的http/websocket会绑定到你电脑上的所有IP地址，所以如果你电脑有外网IP的话意味着你的端口暴露在Internet上面了，你可以用通过Internet在任意地方遥控你的MusicBee，听起来很美好，但是实际上没什么X用，所以完全不建议把MusicBee Fly plguin 暴露在Internet上，如果一定要在这个应用场景下使用，请记得一定要设置密码，并且尽量使用复杂一点的密码（密码最高可设为8位），并且千万不要泄露你的密码。
+因为MusicBee Fly plugin的http/websocket会绑定到你电脑上的所有IP地址，所以如果你电脑有外网IP的话意味着你的端口暴露在Internet上面了，你可以用通过Internet在任意地方遥控你的MusicBee，听起来很美好，但是实际上没什么X用，所以完全不建议把MusicBee Fly plguin 暴露在Internet上，如果一定要在这个应用场景下使用，`请记得一定要设置密码，并且尽量使用复杂一点的密码（密码最高可设为8位），并且千万不要泄露你的密码`。
 
 - 你的电脑处于公司局域网内部：
 如果你必须在公司局域网的内部电脑上使用MusicBee Fly plugin，建议设置连接密码，防止公司同事偷偷连接到你的MusicBee打扰你听音乐的心情。
