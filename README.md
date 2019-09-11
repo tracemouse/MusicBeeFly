@@ -67,6 +67,8 @@ http://ip:port/  |  这个是你自己的MusicBee Fly plugin提供的，在Music
 
 另外，Chrome可能会提醒你http是非安全连接，这个忽略就行了，不用理会。MusicBee Fly plugin没有采用SSL，不要问为什么。
 
+![chrome](https://tracemouse.github.io/MusicBeeFly/docs/chrome.png)
+![chrome2](https://tracemouse.github.io/MusicBeeFly/docs/chrome-2.png)
 
 ## 使用方法 ##
 
