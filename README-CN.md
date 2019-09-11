@@ -1,6 +1,6 @@
 ## MusicBee Fly ##
 
-中文 | [英文](https://tracemouse.github.io/MusicBeeFly/README.md)
+中文 | [英文](README.md)
 
 MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。
 
