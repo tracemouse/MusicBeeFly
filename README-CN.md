@@ -11,18 +11,12 @@ MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic
 
 - [安装方法](#安装方法)  
   [MusicBee Fly plugin 安装方法](#MuiscBee-Fly-plugin-安装方法)  |  [MusicBee Fly App 安装方法](#MuiscBee-Fly-App-安装方法) 
-
 - [使用方法](#使用方法)   
   [MusicBee Fly plugin 使用方法](#MuiscBee-Fly-plugin-使用方法)  |  [MusicBee Fly App 使用方法](#MuiscBee-Fly-App-使用方法) 
-
 - [多语言支持](#多语言支持)
-
 - [已知的BUG](#已知的BUG)
-
 - [鸣谢](#鸣谢)
-
 - [联系作者](#联系作者)
-
 - [捐助](#捐助)
 
 ## 安装方法 ##

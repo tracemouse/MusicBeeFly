@@ -12,18 +12,12 @@ App supports the mobile browser, WebApp and Native App.  And the UI uses iOS sty
 
 - [Install](#Install)  
   [MusicBee Fly Plugin Install](#MuiscBee-Fly-Plugin-Install)  |  [MusicBee Fly App Install](#MuiscBee-Fly-App-Install) 
-
 - [Usage](#Usage)   
   [MusicBee Fly Plugin Usage](#MuiscBee-Fly-Plugin-Usage)  |  [MusicBee Fly App Usage](#MuiscBee-Fly-App-Usage) 
-
 - [Multiple Languages](#Multiple-Languages)
-
 - [Bugs](#Bugs)
-
 - [Thanks](#Thanks)
-
 - [Contact](#Contact)
-
 - [Donate](#Donate)
 
 ## Install ##
