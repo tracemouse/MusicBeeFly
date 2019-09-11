@@ -46,7 +46,7 @@ URL  | 说明
 http://musicbee-fly.tracemouse.top  |  建议,原因参考[已知的BUG](#已知的BUG)
 http://ip:port/  |  这个是你自己的MusicBee Fly plugin提供的，在MusicBee Fly plugin设置窗口可以看见这个url
 
-2) 点击Safari下面的分享按钮，然后点击“添加到主屏幕”
+2) 点击Safari下面的分享按钮，然后点击`“添加到主屏幕”`
 
 3) 上面第二步完成之后在主屏幕上就可以看见MusicBee Fly图标，点击打开它，没错，看起来和一个普通的iPhone App一模一样，enjoy it
 
@@ -72,7 +72,7 @@ http://ip:port/  |  这个是你自己的MusicBee Fly plugin提供的，在Music
 
 ### MuiscBee Fly plugin 使用方法 ###
 
-插件的设置窗口可通过MusicBee 的"首选项" -> "插件" -> "MusicBee Fly 设置" 打开，在插件设置窗口可设置端口和密码。端口默认为9999，建议设置范围是9000 - 9999，必须错开系统上已被其他程序占用的端口，如无特殊需要建议设置为9999。密码默认为空，也就是无须密码可以任意连接，如果担心不安全，请设置密码。  
+插件的设置窗口可通过MusicBee 的`"首选项" -> "插件" -> "MusicBee Fly 设置" `打开，在插件设置窗口可设置端口和密码。端口默认为`9999`，建议设置范围是9000 - 9999，必须错开系统上已被其他程序占用的端口，如无特殊需要建议设置为9999。密码默认为空，也就是无须密码可以任意连接，如果担心不安全，请设置密码。  
 
 ![plugin-2](https://tracemouse.github.io/MusicBeeFly/docs/plugin-2.png)
 
