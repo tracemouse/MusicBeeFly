@@ -1,6 +1,6 @@
 ## MusicBee Fly ##
 
-中文 | [英文](README.md)
+[English](README.md)
 
 MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。
 
@@ -128,6 +128,7 @@ b) 在路由器上的DHCP设置里把你的网卡MAC address设为静态分配�
 
 - 搜索  
 搜索页面填写搜索关键字之后会从远程MusicBee音乐库中按照你的关键字搜索并返回所有满足条件的歌曲并显示，搜索结果和你在MusicBee中搜索一致。  
+
 ![search](https://tracemouse.github.io/MusicBeeFly/docs/search.png)
 
 - 播放列表  
@@ -160,7 +161,7 @@ PWA(WebApp) 安装模式并没有采用service worker + cache storage，所以�
 
 - 在主屏幕上删除MusicBee Fly，然后在iPhone 设置 -> Safari 下面清掉Safari 缓存，然后重新添加PWA
 
-- 建议通过作者提供的 http://musicbee-fly.tracemouse.top 来添加PWA，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加PWA，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
+- 建议通过作者提供的 [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top) 来添加PWA，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加PWA，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
 
 
 ## 鸣谢 ##
