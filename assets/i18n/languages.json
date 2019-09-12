@@ -1,0 +1,17 @@
+{
+    "languages":
+    [
+        {"dis":"简体中文","language":"zh"},
+        {"dis":"繁體中文","language":"zh-TW"},
+        {"dis":"English","language":"en"},
+        {"dis":"English(US)","language":"en-US"}
+    ],
+    "to-be-supported":[
+        {"dis":"Francais","language":"fr"},
+        {"dis":"Italian","language":"it"},
+        {"dis":"Deutsch","language":"de"},
+        {"dis":"Korean","language":"ko"},
+        {"dis":"Japanese","language":"ja"},
+        {"dis":"Greek","language":"el"}
+    ]
+}
