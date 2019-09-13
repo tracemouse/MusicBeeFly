@@ -46,7 +46,7 @@ You cannot get it from Apple App Store in this stage because I have no an Apple 
 
 #### iPhone WebApp ####
 
-iOS starts to support PWA(Progress Web Application) from `11.3`, it means you can add MusicBee Fly as a WebApp.  
+iOS starts to support PWA(Progress Web Application) from **11.3**, it means you can add MusicBee Fly as a WebApp.  
  
 1) Open either of the below two urls on your iPhone's Safari
 
@@ -70,7 +70,7 @@ Get the apk file from the [release](https://github.com/tracemouse/MusicBeeFly/re
 
 #### Android WebApp ####
 
-If you don't want to install the apk file, you may also install it as an Android WebApp like iPhone above. 
+If you don't want to install the apk file, you may also install it as an Android WebApp. 
 
 Use Google Chrome to do it like iPhone Safari above, Chrome may remind you the HTTP is unsafe, please ignore it because MusicBee Fly cannot use SSL.
 
@@ -83,7 +83,7 @@ Use Google Chrome to do it like iPhone Safari above, Chrome may remind you the H
 
 The plugin seting panel could be opened from `"MusicBee perferences" -> "Plugins" -> "MusicBee Fly Setting"`. 
 
-![Plugin-2](https://tracemouse.github.io/MusicBeeFly/docs/Plugin-2.png)
+![plugin-2](https://tracemouse.github.io/MusicBeeFly/docs/plugin-2.png)
 
 Suggest to fix the IP address of your computer.
 

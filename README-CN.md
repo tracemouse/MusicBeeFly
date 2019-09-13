@@ -44,7 +44,7 @@ App的安装方法有两种: WebApp 和 Native App，推荐安装Native App，�
 
 #### iPhone WebApp ####
 
-iOS从`11.3`开始支持PWA(Progress Web Application)，所以你可以通过添加PWA的方式让MusicBee Fly变成一个WebApp。  
+iOS从**11.3**开始支持PWA(Progress Web Application)，所以你可以通过添加PWA的方式让MusicBee Fly变成一个WebApp。  
  
 1) 在iPhone的Safari浏览器里面打开下面这2个url中的任意一个:
 
