@@ -2,9 +2,7 @@
 
 [**中文版**](README-CN.md)
 
-MusicBee Fly is a MusicBee plugin to enable remote controling of MusicBee by your mobile phone.
-
-[**MusicBee**](http://www.getmusicbee.com/) is a ultimate music manager and player.  
+MusicBee Fly is a MusicBee plugin to enable remote controling of [**MusicBee**](http://www.getmusicbee.com/) by your mobile phone.
 
 MusicBee Fly does include two parts : Plugin and App, Plugin was built by C#, App was built by ionic4 + AngularJs + Cordova. The UI uses iOS style of ionic4 to show the same style on different platforms. 
 
@@ -38,7 +36,7 @@ Please remember to close the MusicBee main program, the plugin will be effective
 
 ### MusicBee Fly App Installation ###
 
-App could be Installationed as WebApp or Native App, suggest to install Native App for better user experience.
+App could be installed as WebApp or Native App, suggest to install Native App for better user experience.
 
 #### iPhone App ####
 
@@ -52,7 +50,7 @@ iOS starts to support PWA(Progress Web Application) from **11.3**, it means you 
 
 URL  | Remark
  ---- | -----  
-http://musicbee-fly.tracemouse.top  |  Suggested, refer to [Bugs](#Bugs)
+http://musicbee-fly.tracemouse.top  |  Suggested, because this url will be always online and latest version
 http://ip:port/  |  Provided by your MusicBee Fly Plugin, only available when your MusicBee are opening
 
 2) Click the share button and then click the button `Add to main screen`
