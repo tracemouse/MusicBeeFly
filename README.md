@@ -90,10 +90,10 @@ Suggest to fix the IP address of your computer.
 - Your computer has a internet IP：  
 Please remember to set a strong password.
 
-- Your computer is a part of company network:
+- Your computer is a part of company network:  
 Please remember to set a password.
 
-- Your computer is a part of the family network: 
+- Your computer is a part of the family network:   
 No need to set the password for easy using.
 
 ### MuiscBee Fly App Usage ###
