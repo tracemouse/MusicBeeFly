@@ -184,10 +184,10 @@ WebApp(PWA) 安装模式并没有采用service worker + cache storage，所以�
 
 [`paypal.me/Yangjun78`](https://paypal.me/Yangjun78)
 
-** 微信  **
-
-![alipay-wechat](https://tracemouse.github.io/MusicBeeFly/docs/alipay.png)
-
-** 支付宝 **
+**微信**
 
 ![alipay-wechat](https://tracemouse.github.io/MusicBeeFly/docs/wechat.png)
+
+**支付宝**
+
+![alipay-wechat](https://tracemouse.github.io/MusicBeeFly/docs/alipay.png)
