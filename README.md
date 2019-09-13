@@ -6,8 +6,7 @@ MusicBee Fly is a MusicBee plugin to enable remote controling of MusicBee by you
 
 [**MusicBee**](http://www.getmusicbee.com/) is a ultimate music manager and player.  
 
-MusicBee Fly does include two parts : Plugin and App, Plugin was built by C#, App was built by ionic4 + AngularJs + Cordova.  
-The UI uses iOS style of ionic4 to show the same style on different platforms. 
+MusicBee Fly does include two parts : Plugin and App, Plugin was built by C#, App was built by ionic4 + AngularJs + Cordova. The UI uses iOS style of ionic4 to show the same style on different platforms. 
 
 - [Installation](#Installation)  
   [MusicBee Fly Plugin Installation](#MuiscBee-Fly-Plugin-Installation)   
@@ -35,7 +34,7 @@ Get the latest plugin from the [release](https://github.com/tracemouse/MusicBeeF
 unzip the zip file and copy the file `mb_fly.dll` and the folder `mb_fly.www` into the folder of `MusicBee Plugins`.
 Please remember to close the MusicBee main program, the plugin will be effective when you re-open the MusicBee program. 
 
-![Plugin-1](https://tracemouse.github.io/MusicBeeFly/docs/Plugin-1.png)
+![plugin-1](https://tracemouse.github.io/MusicBeeFly/docs/plugin-1.png)
 
 ### MusicBee Fly App Installation ###
 
