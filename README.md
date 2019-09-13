@@ -139,7 +139,7 @@ Websocket may be closed when the App becames inactive
 
 - **Cannot support the cue file**  
 MusicBee Fly cannot well support the cue file because the MusicBee plugin interface doesn't support it.    
-Sugget to use CUE Splitter(can get it from Miscrosoft Store) to split the single track as multiple tracks.
+Suggest to use CUE Splitter(can get it from Miscrosoft Store) to split the single track as multiple tracks.
 
 - **WebApp cache problem**  
 iPhone WebApp may eccounter some problems because it depends on auto cache of Safari, if the WebApp doesn't work, you may try the following approaches，  
