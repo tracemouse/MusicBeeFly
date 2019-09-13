@@ -16,7 +16,7 @@ MusicBee Fly does include two parts : Plugin and App, Plugin was built by C#, Ap
 
 - [Multiple Languages](#Multiple-Languages)
 
-- [Bugs](#Bugs)
+- [Knows Issues](#Knows-Issues)
 
 - [Thanks](#Thanks)
 
@@ -132,13 +132,21 @@ MusicBee Fly App now supports 简体中文、繁体中文 and English, if you wo
 
 [`assets\i18n\en.json`](https://tracemouse.github.io/MusicBeeFly/assets/i18n/en.json)
 
-## Bugs ##
+## Known Issues ##
 
-iPhone WebApp may eccounter some problems because it depends on auto cache of Safari, if the WebApp doesn't work, you may try the following approaches,
+- **Socket connection issue**  
+Websocket may be closed when the App becames inactive
 
-- Delete MusicBee Fly from main screen, clean the Safari cache, and re-add the WebApp
+- **Cannot support the cue file**  
+MusicBee Fly cannot well support the cue file because the MusicBee plugin interface doesn't support it.    
+Sugget to use CUE Splitter(can get it from Miscrosoft Store) to split the single track as multiple tracks.
 
-- Suggest to add the url [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top)  as the WebApp because the url will be always online.
+- **WebApp cache problem**  
+iPhone WebApp may eccounter some problems because it depends on auto cache of Safari, if the WebApp doesn't work, you may try the following approaches，  
+
+   - Delete MusicBee Fly from main screen, clean the Safari cache, and re-add the WebApp
+
+   - Suggest to add the url [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top)  as the WebApp because the url will be always online.
 
 ## Thanks ##
 
