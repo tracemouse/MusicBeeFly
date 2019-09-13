@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<rect x="0" fill="red" width="8" height="50" transform="translate(0) rotate(180 8 50)">
+<animate
+ attributeName="height"
+ attributeType="XML"
+ dur="1s"
+ values="30; 100; 30"
+ repeatCount="indefinite"
+ begin="0.1s"/>
+</rect>
+<rect x="30" fill="red" width="8" height="80" transform="translate(0) rotate(180 35 50)">
+<animate
+ attributeName="height"
+ attributeType="XML"
+ dur="1s"
+ values="30; 100; 30"
+ repeatCount="indefinite"
+ begin="0.3s"/>
+</rect>
+<rect x="65" fill="red" width="8" height="60" transform="translate(0) rotate(180 65 50)">
+<animate
+ attributeName="height"
+ attributeType="XML"
+ dur="1s"
+ values="30; 100; 30"
+ repeatCount="indefinite"
+ begin="0.5s"/>
+</rect>
+<rect x="90" fill="red" width="8" height="70" transform="translate(0) rotate(180 90 50)">
+<animate
+ attributeName="height"
+ attributeType="XML"
+ dur="1s"
+ values="30; 100; 30"
+ repeatCount="indefinite"
+ begin="0.1s"/>
+</rect>
+</svg>
