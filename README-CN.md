@@ -162,19 +162,19 @@ MusicBee Fly App目前支持简体中文、繁体中文和英文三种语言，�
 
 ## 已知的问题 ##
 
-- **连接断开**
+- **连接断开**  
 Websocket连接有可能会在App进入后台之后被断开，重新刷新或者重新登录可解决
 
-- **不支持cue file**
+- **不支持cue file**  
 因为MusicBee插件接口不支持cue file，所以MusicBee Fly对cue file的支持不好，建议使用CUE Splitter把单文件分割为多文件。  
 CUE Splitter可以从Miscrosoft Store免费下载。
 
-- **WebApp 缓存问题**
+- **WebApp 缓存问题**  
 WebApp(PWA) 安装模式并没有采用service worker + cache storage，所以依赖的浏览器自动缓存，从目前测试结果来看，Google PWA的效果不错，iOS PWA的离线效果不太好，服务器端离线之后再连线时有时无法从服务器获取版本，所以对于iPhone PWA用户，如果遇到PWA的使用问题，可能通过以下方法解决：
 
-- 在主屏幕上删除MusicBee Fly，然后在iPhone 设置 -> Safari 下面清掉Safari 缓存，然后重新添加WebApp
+   - 在主屏幕上删除MusicBee Fly，然后在iPhone 设置 -> Safari 下面清掉Safari 缓存，然后重新添加WebApp
 
-- 建议通过作者提供的 [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top) 来添加WebApp，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加WebApp，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
+   - 建议通过作者提供的 [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top) 来添加WebApp，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加WebApp，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
 
 ## 鸣谢 ##
 
