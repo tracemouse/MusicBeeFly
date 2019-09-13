@@ -92,7 +92,7 @@ Please remember to set a strong password.
 Please remember to set a password.
 
 - Your computer is a part of the family network:   
-No need to set the password for easy using.
+No need to set the password.
 
 ### MuiscBee Fly App Usage ###
 
