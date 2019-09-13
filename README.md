@@ -98,32 +98,32 @@ No need to set the password for easy using.
 
 ### MuiscBee Fly App Usage ###
 
-- Login  
+- **Login**  
 No need to input the password if you didn't set a password in the plugin.
 
 ![login](https://tracemouse.github.io/MusicBeeFly/docs/login.png)
 
-- Now Playing List  
+- **Now Playing List**  
 
 ![tab1](https://tracemouse.github.io/MusicBeeFly/docs/tab1.png)
 
-- Now Playing Track
+- **Now Playing Track**
 
 ![playing](https://tracemouse.github.io/MusicBeeFly/docs/playing.png)
 
-- Music Library  
+- **Music Library**  
 
 ![tab2](https://tracemouse.github.io/MusicBeeFly/docs/tab2.png)
 
-- Search  
+- **Search**  
 
 ![search](https://tracemouse.github.io/MusicBeeFly/docs/search.png)
 
-- Playlist  
+- **Playlist**  
 
 ![tab3](https://tracemouse.github.io/MusicBeeFly/docs/tab3.png)
 
-- Settings
+- **Settings**
 
 ![tab4](https://tracemouse.github.io/MusicBeeFly/docs/tab4.png)
  

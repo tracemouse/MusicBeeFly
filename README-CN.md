@@ -104,19 +104,19 @@ b) 在路由器上的DHCP设置里把你的网卡MAC address设为静态分配�
 ### MuiscBee Fly App 使用方法 ###
 所有红色的地方都是可以点击的，播放、曲库、歌单页面支持下拉刷新。
 
-- 登录  
+- **登录**    
 如果插件部分没有设置连接密码则密码无须填写，必须保证你的手机和MusicBee电脑的网络是连通的，例如在同一个局域网下面。  
 
 ![login](https://tracemouse.github.io/MusicBeeFly/docs/login.png)
 
 
-- 播放  
+- **播放**    
 如果本页面的数据没有实时刷新，也没有弹出任何错误提示，那么有可能是Websocket的连接断开了，可以直接在本页面下拉刷新重新连接websocket，或者通过设置页面退出然后重新登录。   
 
 ![tab1](https://tracemouse.github.io/MusicBeeFly/docs/tab1.png)
 
 
-- 正在播放的歌曲  
+- **正在播放的歌曲**    
 播放进度条可以点击控制播放进度，不可以拖动控制  
 专辑封面在歌曲播放时默认会旋转，可在设置页面关闭动画  
 `专辑封面建议全部使用正方形图片，否则拉伸后会变形，建议的分辨率是500x500`
@@ -124,33 +124,33 @@ b) 在路由器上的DHCP设置里把你的网卡MAC address设为静态分配�
 ![playing](https://tracemouse.github.io/MusicBeeFly/docs/playing.png)
 
 
-- 曲库  
+- **曲库**    
 首次进入时会自动获取MusicBee的音乐库，本页面不会自动刷新，如果需要刷新数据可以下拉页面或者点击顶部的刷新按钮。  
 获取远程音乐库数据时是一次性把远程的所有歌曲全部获取过来，然后在本地进行排序和分类，如果你的音乐库的歌曲数量非常大，可能需要一点时间。作者的曲库中有2000多首歌曲，实测获取速度在可接受的范围。  
 
 ![tab2](https://tracemouse.github.io/MusicBeeFly/docs/tab2.png)
 
 
-- 搜索  
+- **搜索**     
 填写搜索关键字之后会从远程MusicBee音乐库中按照你的关键字搜索并返回所有满足条件的歌曲并显示，搜索结果和你在MusicBee中搜索一致。  
 
 ![search](https://tracemouse.github.io/MusicBeeFly/docs/search.png)
 
 
-- 播放列表  
+- **播放列表**    
 首次进入时会自动装载远程的播放列表，不会自动刷新，如果需要刷新数据可以下拉页面或者点击顶部的刷新按钮    
 
 ![tab3](https://tracemouse.github.io/MusicBeeFly/docs/tab3.png)
 
 
-- 设置
+- **设置**
 刷新间隔仅对播放页面生效，因为只有播放页面是不停的实时刷新的，默认值是1000毫秒，不建议设置的过大或者过小 
 右上角的红色按钮点击之后可以远程控制你的电脑关闭屏幕和关机，关机要小心点，特别是立即关机一旦点击你的电脑马上就会关机
 
 ![tab4](https://tracemouse.github.io/MusicBeeFly/docs/tab4.png)
 
 
-- 其他  
+- **其他**  
 因为Websocket有可能在空闲时被关闭，所以当调用Websocket发送数据失败时页面底部会弹出黄色的提示框，点击上面的X按钮会退出到登录页面，可以直接点击登录按钮重新连接并进入播放页面 
 
 
