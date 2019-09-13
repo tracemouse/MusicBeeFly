@@ -4,7 +4,7 @@
 
 MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。
 
-在开始使用MusicBee Fly之前请先确保你已下载安装[**MusicBee**](http://www.getmusicbee.com/) ，MusicBee是一款完全免费的、功能强大的音乐播放和管理软件。  
+在开始使用MusicBee Fly之前请先确保你已下载安装 [**MusicBee**](http://www.getmusicbee.com/) ，MusicBee是一款完全免费的、功能强大的音乐播放和管理软件。  
 
 MusicBee Fly 分为plugin和App两部分，plugin采用C#编写，App采用ionic4 + AngularJs + Cordova编写，plugin和App数据交换采用Websocket协议，并且App同时支持Browser(Web)、WebApp和Native App三种方式。UI统一采用ionic4的iOS样式，在Safari/Chrome/iOS App/Android App上面呈现的效果完全一致。
 
