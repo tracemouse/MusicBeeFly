@@ -1,6 +1,6 @@
 ## MusicBee Fly ##
 
-[English](README.md)
+[**English**](README.md)
 
 MusicBee Fly 是一款MusicBee插件，使用此插件可以让你远程使用手机控制MusicBee。
 
@@ -161,7 +161,7 @@ WebApp(PWA) 安装模式并没有采用service worker + cache storage，所以�
 
 - 在主屏幕上删除MusicBee Fly，然后在iPhone 设置 -> Safari 下面清掉Safari 缓存，然后重新添加WebApp
 
-- 建议通过作者提供的 [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top) 来添加PWA，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加WebApp，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
+- 建议通过作者提供的 [http://musicbee-fly.tracemouse.top](http://musicbee-fly.tracemouse.top) 来添加WebApp，因为这个url其实是指向github的（没错，就是你在这个页面上部看到的文件），而github是一直在线的，如果通过你自己的MusicBee Fly插件提供的url来添加WebApp，那么一旦你的MusicBee程序被关闭了，这个url就是离线状态.
 
 
 ## 鸣谢 ##
